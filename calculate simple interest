@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int  p,r,t,si;
+
+clrscr();
+
+printf("THIS IS THE PROGRAM OF SIMPLE INTREST\n");
+
+printf("enter principal amount\n ");
+scanf("%d",&p);
+
+printf("enter rate\n ");
+scanf("%d",&r);
+
+printf("enter time\n");
+scanf("%d",&t);
+
+si=p*r*t/100;
+printf( "si is = %d",si);
+
+getch();
+}
+
